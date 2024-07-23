@@ -1,4 +1,8 @@
+const prompt = require('prompt-sync')();
+let listaTarefas = [];
+
 function criar() {
+    
     var tarefaDiaria = {
         dia: "",
         tarefa: ""
@@ -10,7 +14,9 @@ function criar() {
     tarefaDiaria.dia = dia;
     tarefaDiaria.tarefa = tarefa;
 
-    return tarefaDiaria;
+    listaTarefas.push(tarefaDiaria)
+
+    return console.log(listaTarefas);
 }
 
 module.exports = criar;
