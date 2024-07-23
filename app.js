@@ -1,6 +1,5 @@
 const prompt = require('prompt-sync')();
-const criar = require("./criar");
-
+const crud = require("./crud");
 
 
 

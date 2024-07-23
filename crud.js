@@ -19,4 +19,4 @@ function criar() {
     return console.log(listaTarefas);
 }
 
-module.exports = criar;
+module.exports = crud;
