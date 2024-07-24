@@ -19,4 +19,8 @@ function criar() {
     return console.log(listaTarefas);
 }
 
+function remover() {
+    escolha = prompt("Qual tarefa você deseja remover?")
+}
+
 module.exports = crud;
